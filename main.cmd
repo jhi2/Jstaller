@@ -1,4 +1,4 @@
 echo off
 cls
 iexpress
-python3 Creator.py
+python3 creatormainwindow.py

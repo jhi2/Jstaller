@@ -1,9 +1,6 @@
 import os
-import keyboard
-import time
 import webbrowser
 import tkinter as tk
-from tkinter import ttk
 import tkinter.messagebox as mb
 
 def installer(screen1text,beforecommand,ipath,endtext):
