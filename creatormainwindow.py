@@ -19,7 +19,7 @@ istend.pack()
 def write():
     file = open(str(time.time()) + ".py","w")
     file.write("import jstaller\n")
-    file.write("jstaller.installer(" + str(starttext.get()) + "," + str(beforecommand.get()) + "," + str(ipath.get()) + str(endtext.get()) + ")")
+    file.write('jstaller.installer(" + str(starttext.get()) + "," + str(beforecommand.get()) + "," + str(ipath.get()) + str(endtext.get()) + ")')
     file.close()
 
 go = ttk.Button(text="Go",command=write())
